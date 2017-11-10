@@ -1,0 +1,279 @@
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0 0;
+}
+a {
+	text-decoration: none;
+	color: #262626;
+}
+p {
+	margin: 0 0;
+	color: #262626;
+}
+div {
+	box-sizing: border-box;
+}
+.clearfix::after {
+     display: block;
+     content: "";
+     clear: both;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+.content {
+	padding: 0 200px;
+}
+.text-center {
+	text-align: center;
+}
+.heading {
+	font: 300 36px/52px 'Poppins',sans-serif;
+}
+
+/* side */
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+/* /side */
+
+/* colors */
+.lgreen {
+	background-color: #d8da77;
+}
+.green {
+	background-color: #a7ad27;
+}
+.red {
+	background-color: #f96257;
+}
+.text-red {
+	color: #f96257 !important;
+}
+/* /colors */
+
+
+/* buttons */
+.btn-small, .btn-big {
+	display: inline-block;
+}
+.btn-small a {
+	font: 400 14px 'Poppins',sans-serif;
+	letter-spacing: 0.7px;
+	padding: 11px 31px;
+	border-radius: 5px;
+}
+.btn-big {
+	margin: 0 8px;
+}
+.btn-big a {
+	display: block;
+	padding: 24px 0px;
+	font: 300 22px 'Poppins',sans-serif;
+	color: #fff;
+	width: 270px;
+	border-radius: 5px;
+}
+/* /buttons */
+
+/* header */
+header {
+    position: absolute;
+	width: 100%;
+    z-index: 1;
+}
+header .menu {
+	padding-top: 15px;
+    margin-right: -18px;
+}
+.logo {
+	width: 164px;
+}
+/* /header */
+
+
+
+/* S E C T I O N S */
+#section-1 {
+    background: url(../img/main-bg.png) no-repeat #fff;
+    background-position-x: center;
+	padding-bottom: 294px;
+}
+.menu li {
+	float: left;
+	margin: 0 18px;
+}
+.menu a {
+	font: 400 14px 'Poppins',sans-serif;
+}
+.menu li.bascket a {
+	font-size: 16px;
+}
+#section-1 .btn {
+	padding-top: 717px;
+	padding-bottom: 3px;
+}
+#section-1 .btn-small a {
+	background-color: #fff;
+}
+
+
+
+#section-2 .wrapper > div {
+	padding: 0px 70px;
+}
+#section-2 .text {
+	font: 300 28px/46px 'Poppins',sans-serif;
+}
+#section-2 .desc {
+	margin-top: 139px;
+	margin-bottom: 44px;
+}
+#section-2 .img {
+	margin-top: 112px;
+}
+#section-2 .img img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+#section-3 {
+	padding-top: 74px;
+	padding-bottom: 133px;
+	background-color: #f7f7f7;
+}
+#section-3 .btn-small a {
+	color: #fff;
+}
+#section-3 .heading {
+	padding-top: 36px;
+    padding-bottom: 34px;
+}
+
+
+#section-4 .half-straw {
+	position: relative;
+	padding-top: 117px;
+}
+#section-4 .points {
+	font: 400 22px 'Poppins',sans-serif;
+}
+#section-4 .points div {
+	position: relative;
+	background: url(../img/stick.png);
+    background-size: 200px 5px;
+    background-repeat-y: no-repeat;
+    background-repeat-x: no-repeat;
+    background-position-y: center;
+    background-position-x: 142px;
+}
+#section-4 .points .vitamin {
+	top: 395px;
+    left: 97px;
+}
+#section-4 .points .manganese {
+	top: 448px;
+    left: 35px;
+}
+#section-4 .points .acids {
+	top: 501px;
+    left: -17px;
+}
+#section-4 .desc {
+	padding-top: 22px;
+    padding-bottom: 44px;
+    margin: 0 -100px;
+}
+
+
+#section-5 {
+	margin-bottom: 97px;
+}
+#section-5 ul {
+	padding-top: 9px;
+}
+#section-5 li {
+	font: 300 14px/30px 'Poppins',sans-serif;
+}
+#section-5 i {
+    margin-right: 7px;
+}
+#section-5 .right {
+	padding-top: 71px;
+}
+#section-5 .left {
+	padding-top: 309px;
+}
+
+
+#section-6 .wrapper {
+	background: url(../img/red-bg.png);
+}
+#section-6 .content {
+	padding: 110px 0;
+}
+#section-6 p {
+    margin: 0 100px;
+	font: 300 28px/46px 'Poppins',sans-serif;
+	color: #fff;
+}
+
+
+#section-7 {
+	padding-bottom: 101px;
+}
+#section-7 .btn-small a {
+	color: #fff;
+}
+#section-7 .content {
+	padding-top: 75px;
+}
+#section-7 p {
+	padding-bottom: 36px;
+}
+
+
+/* footer */
+footer {
+	background-color: #f7f7f7;
+	padding: 46px 0;
+}
+footer .col {
+	width: 25%;
+}
+footer p, #footer a {
+	font: 400 14px/28px 'Poppins',sans-serif;
+	letter-spacing: 0.5px;
+}
+footer .copyright {
+	font-size: 12px;
+	padding-top: 4px;
+}
+footer .left i {
+	margin-right: 9px;
+}
+footer .right i {
+	margin-left: 16px;
+}
+footer .copyright i {
+	margin-right: 2px;
+}
+footer .right {
+	text-align: right;
+}
+footer .right ul {
+	display: inline-block;
+}
+footer .right li {
+	float: left;
+}
+footer .right div a {
+	letter-spacing: -0.5px;
+}
+/* /footer */
