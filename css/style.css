@@ -162,28 +162,34 @@ header .menu {
 	padding-top: 117px;
 }
 #section-4 .points {
+	position: relative;
 	font: 400 22px 'Poppins',sans-serif;
 }
 #section-4 .points div {
-	position: relative;
-	background: url(../img/stick.png);
-    background-size: 200px 5px;
+	position: absolute;
+	display: inline-block;
+	
+/*    background-size: 200px 5px;
     background-repeat-y: no-repeat;
     background-repeat-x: no-repeat;
     background-position-y: center;
-    background-position-x: 142px;
+    background-position-x: 142px;*/
+}
+#section-4 .points div::after {
+	content: url(../img/stick.png);
+	margin-left: 13px;
 }
 #section-4 .points .vitamin {
-	top: 395px;
+	top: 398px;
     left: 97px;
 }
 #section-4 .points .manganese {
-	top: 448px;
+	top: 488px;
     left: 35px;
 }
 #section-4 .points .acids {
-	top: 501px;
-    left: -17px;
+	top: 578px;
+    left: -18px;
 }
 #section-4 .desc {
 	padding-top: 22px;
@@ -247,7 +253,7 @@ footer {
 footer .col {
 	width: 25%;
 }
-footer p, #footer a {
+footer p, footer a {
 	font: 400 14px/28px 'Poppins',sans-serif;
 	letter-spacing: 0.5px;
 }
